@@ -1,150 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-15T21:07:07 IST" name="Default suite" finished-at="2022-12-15T21:07:32 IST" duration-ms="24748">
+  <suite name="Application Test Automation Test Suite" duration-ms="19296" started-at="2022-12-16T14:20:43 IST" finished-at="2022-12-16T14:21:02 IST">
     <groups>
     </groups>
-    <test started-at="2022-12-15T21:07:07 IST" name="Default test" finished-at="2022-12-15T21:07:32 IST" duration-ms="24748">
+    <test name=" App Test Cases" duration-ms="19296" started-at="2022-12-16T14:20:43 IST" finished-at="2022-12-16T14:21:02 IST">
       <class name="com.crm.qa.testcases.AppTestCases">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.crm.qa.testcases.AppTestCases@c2db68f]" started-at="2022-12-15T21:07:07 IST" name="initialization" finished-at="2022-12-15T21:07:18 IST" duration-ms="10608" status="PASS">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.crm.qa.testcases.AppTestCases@7c1e2a9e]" name="initialization" is-config="true" duration-ms="5659" started-at="2022-12-16T14:20:43 IST" finished-at="2022-12-16T14:20:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@c2db68f]" started-at="2022-12-15T21:07:18 IST" name="methodLevelSetup" finished-at="2022-12-15T21:07:18 IST" duration-ms="83" status="PASS">
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@7c1e2a9e]" name="methodLevelSetup" is-config="true" duration-ms="78" started-at="2022-12-16T14:20:48 IST" finished-at="2022-12-16T14:20:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="TestCaseID_1()[pri:0, instance:com.crm.qa.testcases.AppTestCases@c2db68f]" started-at="2022-12-15T21:07:18 IST" name="TestCaseID_1" description=" Login Scenario with  username and password." finished-at="2022-12-15T21:07:21 IST" duration-ms="3063" status="PASS">
+        <test-method status="PASS" signature="TestCaseID_1()[pri:0, instance:com.crm.qa.testcases.AppTestCases@7c1e2a9e]" name="TestCaseID_1" duration-ms="5492" started-at="2022-12-16T14:20:48 IST" description=" Login Scenario with  username and password." finished-at="2022-12-16T14:20:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseID_1 -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@c2db68f]" started-at="2022-12-15T21:07:21 IST" name="methodLevelSetup" finished-at="2022-12-15T21:07:21 IST" duration-ms="63" status="PASS">
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@7c1e2a9e]" name="methodLevelSetup" is-config="true" duration-ms="50" started-at="2022-12-16T14:20:54 IST" finished-at="2022-12-16T14:20:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="TestCaseID_2()[pri:1, instance:com.crm.qa.testcases.AppTestCases@c2db68f]" started-at="2022-12-15T21:07:21 IST" name="TestCaseID_2" description=" Verify" finished-at="2022-12-15T21:07:21 IST" duration-ms="12" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Web Orders sss] but found [Web Orders]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Web Orders sss] but found [Web Orders]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at com.crm.qa.pages.HomePage.verifyHomePageTitle(HomePage.java:70)
-at com.crm.qa.testcases.AppTestCases.TestCaseID_2(AppTestCases.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseID_2 -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@c2db68f]" started-at="2022-12-15T21:07:21 IST" name="methodLevelSetup" finished-at="2022-12-15T21:07:21 IST" duration-ms="58" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="TestCaseID_3()[pri:2, instance:com.crm.qa.testcases.AppTestCases@c2db68f]" started-at="2022-12-15T21:07:21 IST" name="TestCaseID_3" description="PlaceOrder" finished-at="2022-12-15T21:07:30 IST" duration-ms="8740" status="PASS">
+        <test-method status="PASS" signature="TestCaseID_3()[pri:2, instance:com.crm.qa.testcases.AppTestCases@7c1e2a9e]" name="TestCaseID_3" duration-ms="6017" started-at="2022-12-16T14:20:54 IST" description="PlaceOrder" finished-at="2022-12-16T14:21:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseID_3 -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@c2db68f]" started-at="2022-12-15T21:07:30 IST" name="methodLevelSetup" finished-at="2022-12-15T21:07:30 IST" duration-ms="74" status="PASS">
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@7c1e2a9e]" name="methodLevelSetup" is-config="true" duration-ms="45" started-at="2022-12-16T14:21:00 IST" finished-at="2022-12-16T14:21:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="TestCaseID_4()[pri:3, instance:com.crm.qa.testcases.AppTestCases@c2db68f]" started-at="2022-12-15T21:07:30 IST" name="TestCaseID_4" description="Logout" finished-at="2022-12-15T21:07:31 IST" duration-ms="1569" status="PASS">
+        <test-method status="PASS" signature="TestCaseID_4()[pri:3, instance:com.crm.qa.testcases.AppTestCases@7c1e2a9e]" name="TestCaseID_4" duration-ms="1209" started-at="2022-12-16T14:21:00 IST" description="Logout" finished-at="2022-12-16T14:21:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseID_4 -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@c2db68f]" started-at="2022-12-15T21:07:31 IST" name="methodLevelSetup" finished-at="2022-12-15T21:07:31 IST" duration-ms="75" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="TestCaseID_5()[pri:3, instance:com.crm.qa.testcases.AppTestCases@c2db68f]" started-at="2022-12-15T21:07:31 IST" name="TestCaseID_5" description="Failed" finished-at="2022-12-15T21:07:31 IST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.fail(Assert.java:106)
-at com.crm.qa.testcases.AppTestCases.TestCaseID_5(AppTestCases.java:55)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseID_5 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.AppTestCases@c2db68f]" started-at="2022-12-15T21:07:31 IST" name="teardown" finished-at="2022-12-15T21:07:32 IST" duration-ms="322" status="PASS">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.AppTestCases@7c1e2a9e]" name="teardown" is-config="true" duration-ms="675" started-at="2022-12-16T14:21:01 IST" finished-at="2022-12-16T14:21:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="killDrivers()[pri:0, instance:com.crm.qa.testcases.AppTestCases@c2db68f]" started-at="2022-12-15T21:07:32 IST" name="killDrivers" finished-at="2022-12-15T21:07:32 IST" duration-ms="15" status="PASS">
+        <test-method status="PASS" signature="killDrivers()[pri:0, instance:com.crm.qa.testcases.AppTestCases@7c1e2a9e]" name="killDrivers" is-config="true" duration-ms="11" started-at="2022-12-16T14:21:02 IST" finished-at="2022-12-16T14:21:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killDrivers -->
       </class> <!-- com.crm.qa.testcases.AppTestCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!--  App Test Cases -->
+  </suite> <!-- Application Test Automation Test Suite -->
 </testng-results>

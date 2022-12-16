@@ -1,6 +1,7 @@
 com\crm\qa\base\BaseTest.class
 com\crm\qa\base\BasePage.class
 com\crm\qa\pages\HomePage.class
+practiceMethods\Practice.class
 com\crm\qa\pages\LoginPage.class
 com\qa\reportUtiliy\Retry.class
 com\qa\reportUtiliy\ExtentTestManager.class

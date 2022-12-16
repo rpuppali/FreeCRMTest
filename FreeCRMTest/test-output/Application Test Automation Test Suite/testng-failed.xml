@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Application Test Automation Test Suite]">
   <listeners>
     <listener class-name="com.qa.reportUtiliy.TestListener"/>
     <listener class-name="com.qa.reportUtiliy.AnnotationTransformer"/>
   </listeners>
-  <test name=" App Test Cases(failed)">
+  <test thread-count="5" name=" App Test Cases(failed)">
     <classes>
       <class name="com.crm.qa.testcases.AppTestCases">
         <methods>
-          <include name="initialization"/>
-          <include name="TestCaseID_2"/>
           <include name="methodLevelSetup"/>
           <include name="TestCaseID_5"/>
           <include name="killDrivers"/>
           <include name="teardown"/>
+          <include name="initialization"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.AppTestCases -->
     </classes>

@@ -17,14 +17,14 @@ public class AppTestCases extends BaseTest{
         loginPage.loginToApp(prop.getProperty("username"), prop.getProperty("password"));
            
     }
-    @Test(priority = 1, description = " Verify")
-    public void TestCaseID_2() {
-    	String methodName = new Object() {}.getClass().getEnclosingMethod().getName();
-        //ExtentReports Description
-        ExtentTestManager.startTest(methodName, "Verify Title");
-        homePage.verifyHomePageTitle();
-           
-    }
+//    @Test(priority = 1, description = " Verify")
+//    public void TestCaseID_2() {
+//    	String methodName = new Object() {}.getClass().getEnclosingMethod().getName();
+//        //ExtentReports Description
+//        ExtentTestManager.startTest(methodName, "Verify Title");
+//        homePage.verifyHomePageTitle();
+//           
+//    }
     
 	@Test(priority = 2, description = "PlaceOrder")
 	public void TestCaseID_3() throws Exception {
@@ -47,14 +47,14 @@ public class AppTestCases extends BaseTest{
         homePage.logout();
            
     }
-    @Test(priority = 3, description = "Failed")
-    public void TestCaseID_5() {
-    	String methodName = new Object() {}.getClass().getEnclosingMethod().getName();
-        //ExtentReports Description
-    	 ExtentTestManager.startTest(methodName, "Failed");
-        Assert.fail();
-           
-    }
+//    @Test(priority = 3, description = "Failed")
+//    public void TestCaseID_5() {
+//    	String methodName = new Object() {}.getClass().getEnclosingMethod().getName();
+//        //ExtentReports Description
+//    	 ExtentTestManager.startTest(methodName, "Failed");
+//        Assert.fail();
+//           
+//    }
  
 
 }

@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Application Test Automation Test Suite" duration-ms="27749" started-at="2022-12-16T11:14:42Z" finished-at="2022-12-16T11:15:10Z">
+  <suite name="Application Test Automation Test Suite" duration-ms="24342" started-at="2022-12-16T11:41:29Z" finished-at="2022-12-16T11:41:54Z">
     <groups>
     </groups>
-    <test name=" App Test Cases" duration-ms="27749" started-at="2022-12-16T11:14:42Z" finished-at="2022-12-16T11:15:10Z">
+    <test name=" App Test Cases" duration-ms="24342" started-at="2022-12-16T11:41:29Z" finished-at="2022-12-16T11:41:54Z">
       <class name="com.crm.qa.testcases.AppTestCases">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="initialization" is-config="true" duration-ms="8900" started-at="2022-12-16T16:44:42Z" finished-at="2022-12-16T16:44:51Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="initialization" is-config="true" duration-ms="8757" started-at="2022-12-16T17:11:29Z" finished-at="2022-12-16T17:11:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="methodLevelSetup" is-config="true" duration-ms="131" started-at="2022-12-16T16:44:51Z" finished-at="2022-12-16T16:44:51Z">
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="methodLevelSetup" is-config="true" duration-ms="120" started-at="2022-12-16T17:11:38Z" finished-at="2022-12-16T17:11:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method status="PASS" signature="TestCaseID_1()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="TestCaseID_1" duration-ms="3632" started-at="2022-12-16T16:44:51Z" description=" Login Scenario with  username and password." finished-at="2022-12-16T16:44:55Z">
+        <test-method status="PASS" signature="TestCaseID_1()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="TestCaseID_1" duration-ms="2986" started-at="2022-12-16T17:11:38Z" description=" Login Scenario with  username and password." finished-at="2022-12-16T17:11:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseID_1 -->
-        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="methodLevelSetup" is-config="true" duration-ms="78" started-at="2022-12-16T16:44:55Z" finished-at="2022-12-16T16:44:55Z">
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="methodLevelSetup" is-config="true" duration-ms="87" started-at="2022-12-16T17:11:41Z" finished-at="2022-12-16T17:11:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method status="PASS" signature="TestCaseID_3()[pri:2, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="TestCaseID_3" duration-ms="11444" started-at="2022-12-16T16:44:55Z" description="PlaceOrder" finished-at="2022-12-16T16:45:06Z">
+        <test-method status="PASS" signature="TestCaseID_3()[pri:2, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="TestCaseID_3" duration-ms="8885" started-at="2022-12-16T17:11:41Z" description="PlaceOrder" finished-at="2022-12-16T17:11:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseID_3 -->
-        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="methodLevelSetup" is-config="true" duration-ms="88" started-at="2022-12-16T16:45:06Z" finished-at="2022-12-16T16:45:06Z">
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="methodLevelSetup" is-config="true" duration-ms="75" started-at="2022-12-16T17:11:50Z" finished-at="2022-12-16T17:11:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method status="PASS" signature="TestCaseID_4()[pri:3, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="TestCaseID_4" duration-ms="2717" started-at="2022-12-16T16:45:06Z" description="Logout" finished-at="2022-12-16T16:45:09Z">
+        <test-method status="PASS" signature="TestCaseID_4()[pri:3, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="TestCaseID_4" duration-ms="2664" started-at="2022-12-16T17:11:50Z" description="Logout" finished-at="2022-12-16T17:11:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseID_4 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="teardown" is-config="true" duration-ms="732" started-at="2022-12-16T16:45:09Z" finished-at="2022-12-16T16:45:10Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="teardown" is-config="true" duration-ms="737" started-at="2022-12-16T17:11:53Z" finished-at="2022-12-16T17:11:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="killDrivers()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="killDrivers" is-config="true" duration-ms="32" started-at="2022-12-16T16:45:11Z" finished-at="2022-12-16T16:45:11Z">
+        <test-method status="PASS" signature="killDrivers()[pri:0, instance:com.crm.qa.testcases.AppTestCases@61862a7f]" name="killDrivers" is-config="true" duration-ms="26" started-at="2022-12-16T17:11:54Z" finished-at="2022-12-16T17:11:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killDrivers -->
